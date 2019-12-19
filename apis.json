@@ -1,0 +1,58 @@
+{
+    "name": "San Francisco California 311",
+    "description": "<p>The 311 service for the City of San Francisco, California.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vzN3Pt2u_400x400.png",
+    "tags": [
+        "311",
+        "have api",
+        "open311",
+        "streams"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/san-francisco-california-311\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "San Francisco CA Open311 GeoReport API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vzN3Pt2u_400x400.png",
+            "humanURL": "http:\/\/ouc.dc.gov",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/san-francisco-ca-open311-georeport-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/san-francisco-ca-open311-georeport-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/san-francisco-ca-open311-georeport-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/311DCgov"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/ouc.dc.gov"
+        },
+        {
+            "type": "Open 311 Feed",
+            "url": "http:\/\/mobile311.sfgov.org\/open311\/v2\/services.xml?jurisdiction_id=sfgov.org"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/sf311.org\/"
+        }
+    ]
+}
