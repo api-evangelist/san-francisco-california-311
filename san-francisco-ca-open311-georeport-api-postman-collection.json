@@ -1,5 +1,5 @@
 {
-    "id": "dea28588b119fce8ed89f826ca3a50a0",
+    "id": "baa25cfcb218d56dcd885f832350ad44",
     "name": "San Francisco CA Open311 GeoReport API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "79b5b4083ac11f29b11b74b170dff787",
+            "id": "a279df6354b1b564588e1b339bd39fd2",
             "name": "Requests",
             "url": "httpsmobile311.sfgov.org\/open311\/v2\/\/requests.{response_format}",
             "description": "Query the current status of multiple requests.",
@@ -72,11 +72,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dea28588b119fce8ed89f826ca3a50a0",
+            "collectionId": "baa25cfcb218d56dcd885f832350ad44",
             "rawModeData": ""
         },
         {
-            "id": "20446d960bc53b7ef276f5f82fdd3d67",
+            "id": "f5fd864bb89271e5aad2cbfea1d9bd55",
             "name": "Create Service Request",
             "url": "httpsmobile311.sfgov.org\/open311\/v2\/\/requests.{response_format}",
             "description": "Submit a new request for with specific details of a single service. Must provide a location via lat\/long or address_string or address_id",
@@ -145,11 +145,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dea28588b119fce8ed89f826ca3a50a0",
+            "collectionId": "baa25cfcb218d56dcd885f832350ad44",
             "rawModeData": ""
         },
         {
-            "id": "6fe7d92523b8975228f8bb2fbcdc8007",
+            "id": "87e8bc9659461eb826f26b563589aa0b",
             "name": "Current Status",
             "url": "httpsmobile311.sfgov.org\/open311\/v2\/\/request\/{service_request_id}.{response_format}",
             "description": "Query the current status of an individual request",
@@ -176,11 +176,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dea28588b119fce8ed89f826ca3a50a0",
+            "collectionId": "baa25cfcb218d56dcd885f832350ad44",
             "rawModeData": ""
         },
         {
-            "id": "acdf811657790a97929b2ddaf4740cad",
+            "id": "d1734e3ceaab5d3ecd35ab981d62dd4c",
             "name": "Service Types",
             "url": "httpsmobile311.sfgov.org\/open311\/v2\/\/services.{response_format}",
             "description": "List acceptable service request types and their associated service codes. These request types can be unique to the city\/jurisdiction.",
@@ -199,11 +199,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dea28588b119fce8ed89f826ca3a50a0",
+            "collectionId": "baa25cfcb218d56dcd885f832350ad44",
             "rawModeData": ""
         },
         {
-            "id": "e25003ab5cc99dc2e7a609d09a7fb906",
+            "id": "f1b001b21ab1045d7c52339457c6c4c0",
             "name": "(extended) Definition Of A Service Type",
             "url": "httpsmobile311.sfgov.org\/open311\/v2\/\/services\/{service_code}.{response_format}",
             "description": "Define attributes associated with a service code. These attributes can be unique to the city\/jurisdiction.",
@@ -230,11 +230,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dea28588b119fce8ed89f826ca3a50a0",
+            "collectionId": "baa25cfcb218d56dcd885f832350ad44",
             "rawModeData": ""
         },
         {
-            "id": "b8e6c82220441911db8bf54bbc24d4b1",
+            "id": "716ccb64d5456e00bef1cbb75709beb0",
             "name": "Id Of Service_request Via Token",
             "url": "httpsmobile311.sfgov.org\/open311\/v2\/\/tokens\/{token_id}.{response_format}",
             "description": "Get the service_request_id from a temporary token. This is unnecessary if the response from creating a service request does not contain a token.",
@@ -261,7 +261,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dea28588b119fce8ed89f826ca3a50a0",
+            "collectionId": "baa25cfcb218d56dcd885f832350ad44",
             "rawModeData": ""
         }
     ]
